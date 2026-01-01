@@ -1,44 +1,68 @@
-# Paytm-End_to_End-Data-Analytics
-Business Problem Statement 
-Paytm provides mul ple digital financial services such as user onboarding, money transfers, loans, 
-insurance, and bill payments. 
-However, the company faces challenges related to transac on failures, user behavior 
-understanding, product performance evalua on, and me-based trends. 
-The objec ve of this project is to analyze Paytm’s transac onal and user data to: 
- Understand user growth pa erns 
- Iden fy failure reasons across services 
- Evaluate product performance 
- Provide ac onable business insights to improve success rates and customer experience 
-Project Objec ves 
- Perform data cleaning and preprocessing on mul ple Paytm datasets 
- Conduct Exploratory Data Analysis (EDA) for each service independently 
- Iden fy transac on success vs failure pa erns 
- Analyze me-based trends (monthly & yearly) 
- Visualize insights using Python & Power BI 
- Store cleaned data in MySQL and perform analy cal SQL queries 
- Deliver business-focused insights and recommenda ons 
-Key Business Insights 
- User onboarding showed clear monthly and yearly trends, indica ng seasonal growth 
-pa erns. 
- Transac on failures are mainly driven by wrong PIN, insufficient balance, and server issues. 
- Certain loan and insurance types contribute significantly more revenue than others. 
- Payment success rates vary across payment modes and services. 
- Failed transac ons o en repeat for the same reasons, highligh ng process improvement 
-opportuni es. 
- Some regions and products consistently outperform others, indica ng targeted growth 
-poten al. 
-Business Recommenda ons 
- Improve PIN valida on and retry guidance to reduce wrong PIN failures. 
- Implement real-me balance checks before transac ons. 
- Strengthen server stability and monitoring, especially during peak usage. 
- Promote high-performing loan and insurance products. 
- Run seasonal marke ng campaigns during peak onboarding periods. 
- Encourage users to adopt more reliable payment modes. 
- Use data-driven monitoring dashboards for early failure detec on. 
-Tools & Technologies Used 
- Python (Pandas, NumPy, Matplotlib, Seaborn) 
- MySQL (Data storage & SQL analysis) 
+👨🏻‍💻 Paytm End-to-End Data Analytics Project
 
- Power BI (Interac ve dashboards) 
- Jupyter Notebook 
- GitHub (Version control & documenta on)
+Customer Behavior • Transactions • Business Insights
+This project represents a complete, industry-standard, end-to-end data analytics workflow, designed to mirror how real data analysts work in fintech and digital payments companies like Paytm.
+It covers the full analytics lifecycle — from raw data cleaning and modeling to SQL-based business analysis, interactive Power BI dashboards, and actionable business insights.
+
+📌 Business Problem Statement
+
+Paytm operates across multiple services such as wallets, recharges, bill payments, money transfers, loans, and insurance.
+However, business teams face challenges in:
+* Understanding customer behavior and engagement
+* Identifying transaction failures and revenue leakage
+* Improving customer retention and service adoption
+* Making data-driven decisions across products
+👉 The goal of this project is to analyze Paytm customer and transaction data to uncover patterns, trends, and insights that help improve growth, retention, and operational efficiency.
+
+🧠 Project Objectives
+
+This project simulates a corporate-grade analytics workflow by:
+* Cleaning and preparing raw Paytm customer & transaction data using Python
+* Designing structured tables and running SQL business queries
+* Analyzing customer segments, failures, usage patterns, and KPIs
+* Building interactive Power BI dashboards for stakeholders
+* Delivering clear business insights and recommendations
+
+🛠️ Tools & Technologies Used
+* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* MySQL (Database design & analytical queries)
+* SQLAlchemy & PyMySQL (Python ↔ MySQL connection)
+* Power BI (Dashboards & visual storytelling)
+* Jupyter Notebook
+
+📊 Project Workflow
+
+1️⃣ Data Understanding & Cleaning (Python)
+* Handled missing values
+* Standardized formats
+* Created analytical features
+
+2️⃣ Exploratory Data Analysis (Python)
+* Customer behavior analysis
+* Transaction trends
+* Failure reason analysis
+
+3️⃣ Database Creation & SQL Analysis
+* Created MySQL database (paytm_final_db)
+* Designed multiple tables:
+ all_users
+ recharge_bills
+ money_transfer
+ loans
+ insurance
+* Wrote business-focused SQL queries
+
+4️⃣ Power BI Dashboarding
+* Transaction success & failures
+* Product-wise performance
+* Trends & insights for decision-makers
+
+5️⃣ Business Insights & Recommendations
+* Converted data findings into actionable strategies
+
+👨‍💻 About the Author
+
+Hi, I’m Sneh Parekh 👋
+An aspiring Analyst passionate about turning data into meaningful business insights using Python, SQL, and Power BI.
+
+📌 This project is part of my data analytics portfolio showcasing real-world problem solving in the fintech domain.
