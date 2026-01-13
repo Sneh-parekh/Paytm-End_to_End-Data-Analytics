@@ -12,6 +12,7 @@ However, business teams face challenges in:
 * Identifying transaction failures and revenue leakage
 * Improving customer retention and service adoption
 * Making data-driven decisions across products
+
 👉 The goal of this project is to analyze Paytm customer and transaction data to uncover patterns, trends, and insights that help improve growth, retention, and operational efficiency.
 
 🧠 Project Objectives
